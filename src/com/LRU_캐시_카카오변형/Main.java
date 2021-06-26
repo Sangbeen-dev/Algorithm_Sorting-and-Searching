@@ -12,7 +12,6 @@ public class Main {
 				for(int i=size-1; i>=1; i--) {
 					cache[i] = cache[i-1];
 				}
-				
 			}else {
 				for(int i=pos; i>=1; i--) {
 					cache[i] = cache[i-1];
